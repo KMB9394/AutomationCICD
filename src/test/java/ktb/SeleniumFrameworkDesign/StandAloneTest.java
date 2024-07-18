@@ -43,7 +43,7 @@ public class StandAloneTest {
 		//WebDriverWait wait = new WebDriverWait(d1,Duration.ofSeconds(5)); // explicit wait
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#toast-container"))); 
         // above wait is for msg display about product added to cart - some time it takes time to appear on screen 
-        
+        // new comments are added
         // below wait for loading to disappear 
         
        // wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".ng-animating"))); 
